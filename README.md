@@ -25,7 +25,7 @@ As an example of how to use this macro please follow the following example workf
 14. Go to plugins -> macros -> run. Selected the Fiji ORO.ijm macro file that you just edited in step 11.
 15. In the first popup, choose the folder of the image files to be analyzed. In the example data provided this is the Fiji ORO example dataset file.
 16. In the second popup, choose a location for the results to be saved. This is easiest if a new folder is created for the ouput files.
-17. The script will run and the output .csv files will be placed in the selected output folder.
+17. The script will run and the output .csv files will be placed in the selected output folder. Expected runtime for the demo is < 1 minute.
 18. Open the last .csv file in the output folder - this contains the analyzed area for each file present in the input folder. All other .csv files in the output can be deleted as they are successive iterations of the script. The input files are analyzed and reported in the .csv file in whatever order they are present in input folder so sequential naming of files starting with numbers that place them in the desired order (01_xxx_.tif, 02_xxx.tif, etc.) is recommended.
 
 Examples of both thresholded images and output from this macro are included in the folder "Fiji ORO example output". 
